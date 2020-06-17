@@ -1,0 +1,157 @@
+<html>
+<script>
+function myFunction() {
+
+var _urls = [
+"https://www.youtube.com/watch?v=VqVyRdoYEQ8?autoplay=1",
+"https://www.youtube.com/watch?v=atwqSHhGj-k?autoplay=1",
+"https://www.youtube.com/watch?v=vuUmwwfIPPk?autoplay=1",
+"https://www.youtube.com/watch?v=ZNlycKhwdFQ?autoplay=1",
+"https://www.youtube.com/watch?v=ZnZxst55cWY?autoplay=1",
+"https://www.youtube.com/watch?v=XGSgPp-HwOI?autoplay=1",
+"https://www.youtube.com/watch?v=lt3o21zJ804?autoplay=1",
+"https://www.youtube.com/watch?v=uoo2Cu5X45k?autoplay=1",
+"https://www.youtube.com/watch?v=hfyFLEHzZAs?autoplay=1",
+"https://www.youtube.com/watch?v=oMR8ARZ2YW8?autoplay=1",
+"https://www.youtube.com/watch?v=k8A2Yfn5G30?autoplay=1",
+"https://www.youtube.com/watch?v=pbGFFJjnIZA?autoplay=1",
+"https://www.youtube.com/watch?v=lHP1Cm_Ojj8?autoplay=1",
+"https://www.youtube.com/watch?v=oD-u5tB2zfw?autoplay=1",
+"https://www.youtube.com/watch?v=olV_mWy9F4o?autoplay=1",
+"https://www.youtube.com/watch?v=79AHZ7JCL9c?autoplay=1",
+"https://www.youtube.com/watch?v=HpbEC-aQgC4?autoplay=1",
+"https://www.youtube.com/watch?v=NloxovvLGGw?autoplay=1",
+"https://www.youtube.com/watch?v=GZLgaEDgNlk?autoplay=1",
+"https://www.youtube.com/watch?v=5hG_7wJnxxo?autoplay=1",
+"https://www.youtube.com/watch?v=qMdCeCoPEA0?autoplay=1",
+"https://www.youtube.com/watch?v=SKzHi5GsCVk?autoplay=1",
+"https://www.youtube.com/watch?v=_XU6L8EKAxs?autoplay=1",
+"https://www.youtube.com/watch?v=Ur-0tjs__08?autoplay=1",
+"https://www.youtube.com/watch?v=Hj1S28TpLrw?autoplay=1",
+"https://www.youtube.com/watch?v=eBq1Oum36Lc?autoplay=1",
+"https://www.youtube.com/watch?v=uOZ-7LRkWkA?autoplay=1",
+"https://www.youtube.com/watch?v=jMM8Fv7dY3o?autoplay=1",
+"https://www.youtube.com/watch?v=xBMDSgS6080?autoplay=1",
+"https://www.youtube.com/watch?v=OldsrdMU28k?autoplay=1",
+"https://www.youtube.com/watch?v=lhSRhjQaIa0?autoplay=1",
+"https://www.youtube.com/watch?v=C4CTukmVaXo?autoplay=1",
+"https://www.youtube.com/watch?v=_jb4PRE87Ew?autoplay=1",
+"https://www.youtube.com/watch?v=RSBfpS5Jp-4?autoplay=1",
+"https://www.youtube.com/watch?v=R3kldf-vdcE?autoplay=1",
+"https://www.youtube.com/watch?v=RXjjNTd3O6E?autoplay=1",
+"https://www.youtube.com/watch?v=kHJ-_lP2JKk?autoplay=1",
+"https://www.youtube.com/watch?v=Iz7bCBN0CAk?autoplay=1",
+"https://www.youtube.com/watch?v=NKSt-eeWrvo?autoplay=1",
+"https://www.youtube.com/watch?v=M0965uo8DeE?autoplay=1",
+"https://www.youtube.com/watch?v=QUD-_sHAZ4U?autoplay=1",
+"https://www.youtube.com/watch?v=Kc6SXPKUauM?autoplay=1",
+"https://www.youtube.com/watch?v=YD43ynmVu34?autoplay=1",
+"https://www.youtube.com/watch?v=48WSGvnHx_Q?autoplay=1",
+"https://www.youtube.com/watch?v=FcAB66G9Q80?autoplay=1",
+"https://www.youtube.com/watch?v=zbf5Ku2RlWA?autoplay=1",
+"https://www.youtube.com/watch?v=lOVGdGhnn8I?autoplay=1",
+"https://www.youtube.com/watch?v=qY7kxl2O59g?autoplay=1",
+"https://www.youtube.com/watch?v=fUKtq7WFNlQ?autoplay=1",
+"https://www.youtube.com/watch?v=NYQbv7qh-0M?autoplay=1",
+"https://www.youtube.com/watch?v=bvOUlg4P3Bw?autoplay=1",
+"https://www.youtube.com/watch?v=tf0MdF7A3zU?autoplay=1",
+"https://www.youtube.com/watch?v=4Vh3nuhwyh4?autoplay=1",
+"https://www.youtube.com/watch?v=Y6n59kJx2FE?autoplay=1",
+"https://www.youtube.com/watch?v=v7Afyi0Cbeo?autoplay=1",
+"https://www.youtube.com/watch?v=hsWLEpS48kk?autoplay=1",
+"https://www.youtube.com/watch?v=X4WcIfBkh-w?autoplay=1",
+"https://www.youtube.com/watch?v=jlfFUg4_s7Q?autoplay=1",
+"https://www.youtube.com/watch?v=UiYLxIguzNQ?autoplay=1",
+"https://www.youtube.com/watch?v=7shqjbVwAKc?autoplay=1",
+"https://www.youtube.com/watch?v=-jnQiOoF4WU?autoplay=1",
+"https://www.youtube.com/watch?v=0qO5fS27JDs?autoplay=1",
+"https://www.youtube.com/watch?v=6JK5JQ3DRO8?autoplay=1",
+"https://www.youtube.com/watch?v=1QLe8z0Mpz4?autoplay=1",
+"https://www.youtube.com/watch?v=Ni8SHvcTyOs?autoplay=1",
+"https://www.youtube.com/watch?v=ZnTDGgg5SsY?autoplay=1",
+"https://www.youtube.com/watch?v=AITXyGb9TJ8?autoplay=1",
+"https://www.youtube.com/watch?v=nO7EYzOMSds?autoplay=1",
+"https://www.youtube.com/watch?v=LJGneF8YZ-E?autoplay=1",
+"https://www.youtube.com/watch?v=TnxuCxTFqFs?autoplay=1",
+"https://www.youtube.com/watch?v=9hRHisTuzTc?autoplay=1",
+"https://www.youtube.com/watch?v=XsqOuYeazR4?autoplay=1",
+"https://www.youtube.com/watch?v=2NjwLjCMFes?autoplay=1",
+"https://www.youtube.com/watch?v=quXY6h_IBUs?autoplay=1",
+"https://www.youtube.com/watch?v=-7bPO3QFZfU?autoplay=1",
+"https://www.youtube.com/watch?v=royuoDCgfoY?autoplay=1",
+"https://www.youtube.com/watch?v=dUQSJeptpLc?autoplay=1",
+"https://www.youtube.com/watch?v=cmR_iHZtS_0?autoplay=1",
+"https://www.youtube.com/watch?v=Q3LOLyacmKE?autoplay=1",
+"https://www.youtube.com/watch?v=aV-icsT5Z-I?autoplay=1",
+"https://www.youtube.com/watch?v=pzT89twNMro?autoplay=1",
+"https://www.youtube.com/watch?v=9EuasNKR4Qs?autoplay=1",
+"https://www.youtube.com/watch?v=a2--F46Aopo?autoplay=1",
+"https://www.youtube.com/watch?v=LUiX_ACKZcA?autoplay=1",
+"https://www.youtube.com/watch?v=crcBPY4feII?autoplay=1",
+"https://www.youtube.com/watch?v=xgg8GC9nZIM?autoplay=1",
+"https://www.youtube.com/watch?v=LaQwBMoupiM?autoplay=1",
+"https://www.youtube.com/watch?v=BFB8KpCrmzA?autoplay=1",
+"https://www.youtube.com/watch?v=81idXAivCCU?autoplay=1",
+"https://www.youtube.com/watch?v=9jZOzBHnB_k?autoplay=1"
+];
+
+var i=0;
+var _wait = 200000;
+var _playtime = 180000; 
+        
+          	
+    function waitForIt(){
+		if(i < _urls.length) {
+			document.getElementById("btn").innerHTML  = "In Progress";
+			var _vdos = "";
+			window.setTimeout(waitForIt, _wait);
+            var win = window.open(_urls[i]); i++;
+			var win2 = window.open(_urls[i]); i++;
+			var win3 = window.open(_urls[i]); i++;
+			var win4 = window.open(_urls[i]); i++;
+			var win5 = window.open(_urls[i]); i++;
+			var win6 = window.open(_urls[i]); i++;
+			var win7 = window.open(_urls[i]); i++;
+			var win8 = window.open(_urls[i]); i++;
+			var win9 = window.open(_urls[i]); i++;
+			var win10 = window.open(_urls[i]); i++;
+			
+			_vdos = win+" "+win2+" "+win3+" "+win4+" "+win5+" "+win6+" "+win7+" "+win8+" "+win9+" "+win10;
+    
+			setTimeout(function () { win.close();}, _playtime);
+			setTimeout(function () { win2.close();}, _playtime);
+			setTimeout(function () { win3.close();}, _playtime);
+			setTimeout(function () { win4.close();}, _playtime);
+			setTimeout(function () { win5.close();}, _playtime);
+			setTimeout(function () { win6.close();}, _playtime);
+			setTimeout(function () { win7.close();}, _playtime);
+			setTimeout(function () { win8.close();}, _playtime);
+			setTimeout(function () { win9.close();}, _playtime);
+			setTimeout(function () { win10.close();}, _playtime);
+			
+			var _progress = (i / (_urls.length+1))*100;
+			document.getElementById("myProgress").value = _progress;
+			document.getElementById("vdos").innerHTML = _vdos;
+			//i=i+10;
+		} 
+   		
+	}
+
+
+waitForIt();
+//i=i+10;
+//document.getElementById("btn").innerHTML  = "Start";
+
+};
+</script>
+<body>
+<button id="btn" onclick="myFunction()">Start</button> </br
+<label for="file">Progress:</label>
+<progress id="myProgress" value="1" max="100"> </br>
+<details>
+  <summary>Current Videos</summary>
+  <p id="vdos">List of Videos</p>
+</details>
+
+</body>
+</html>
